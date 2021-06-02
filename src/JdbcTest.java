@@ -10,7 +10,7 @@ public class JdbcTest
 		{
 			Connection myConn = DriverManager.getConnection("jdbc:mysql://localhost:3306/javatry?useSSL=false","dshah","aryabhatt2488");
 			System.out.println("Connection is successful");
-			
+			System.out.println("Connection is successful");
 			Statement mystmt = myConn.createStatement();
 			
 			int rowsAffected = mystmt.executeUpdate("insert into employees"+
